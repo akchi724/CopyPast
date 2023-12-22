@@ -1,0 +1,5 @@
+git flow init -d
+
+git flow release start 2.0.0
+
+git flow release finish -p -m "release 2.0.0" 2.0.0

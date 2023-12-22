@@ -1,0 +1,8 @@
+--пушнуть локально
+publishToMavenLocal
+
+--пушнуть в nexus
+publish
+
+--откуда взялись зависимости maven
+mvn dependency:tree

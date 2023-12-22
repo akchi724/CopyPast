@@ -1,0 +1,11 @@
+Чтобы заработал brew:
+export PATH=/opt/homebrew/bin:$PATH
+
+--Читать kafka
+kcat -b 10.12.94.27:9092 -t CRM.INTERACTION.CREATE
+
+-- Запрос на путь до ip
+tracert 10.10.190.14
+
+-- подключение к redis с паролем
+redis-cli -h 127.0.0.1 -p 6380 -a redispass4      6380 - порт, redispass4 - пароль

@@ -1,0 +1,4 @@
+#Вырубить кэш
+spring:
+  cache:
+    type: none
