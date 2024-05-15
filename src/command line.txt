@@ -9,3 +9,11 @@ tracert 10.10.190.14
 
 -- подключение к redis с паролем
 redis-cli -h 127.0.0.1 -p 6380 -a redispass4      6380 - порт, redispass4 - пароль
+
+mac OS
+-- Узнать, какие java есть
+/usr/libexec/java_home -V
+--Переопределить JAVA_HOME
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+--Проверить версию java
+java -version
